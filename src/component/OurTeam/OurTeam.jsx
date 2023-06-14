@@ -15,7 +15,7 @@ import {
   HeaderTitle,
   HeaderBigTitle,
   HeaderDescription,
-  TabWrapper
+  TabWrapper,
 } from "./OurTeam.style";
 
 export const OurTeam = () => {
@@ -35,7 +35,7 @@ export const OurTeam = () => {
           scrambled it.
         </HeaderDescription>
       </Header>
-      <Box sx={{ maxWidth:'1440px' , margin:'auto', typography: "body1" }}>
+      <Box sx={{ maxWidth: "1440px", margin: "auto", typography: "body1" }}>
         <TabContext value={value}>
           <TabWrapper>
             <TabList onChange={handleChange} aria-label="lab API tabs example">

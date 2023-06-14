@@ -35,15 +35,14 @@ export const Wrapper = styled(Box)`
 `;
 
 export const TabWrapper = styled(Box)(() => ({
-  display: 'flex',
-  justifyContent: 'center',
-}))
+  display: "flex",
+  justifyContent: "center",
+}));
 
 export const Header = styled(Box)(() => ({
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-
 }));
 
 export const HeaderTitle = styled(Typography)(() => ({
@@ -70,7 +69,7 @@ export const HeaderDescription = styled(Typography)(() => ({
   fontWeight: "400",
   fontSize: "16px",
   textAlign: "center",
-  paddingInline:'30px',
+  paddingInline: "30px",
   color: "#656464",
 }));
 

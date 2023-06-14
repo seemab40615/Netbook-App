@@ -49,7 +49,6 @@ export const FooterWrapper = styled(Box)`
   }
 `;
 
-
 export const StyledContainer = styled(Container)`
   height: 140px;
   widht: 100%;
@@ -60,5 +59,5 @@ export const Wrapper = styled(Box)`
   height: 140px;
   widht: 100%;
   background-color: #2b2b39;
-  margin-top:50px;
+  margin-top: 50px;
 `;

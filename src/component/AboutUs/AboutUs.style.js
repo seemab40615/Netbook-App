@@ -3,8 +3,8 @@ import { Box, Link as a, Typography, Avatar } from "@mui/material";
 
 export const Wrapper = styled(Box)(() => ({
   padding: "5rem 5rem",
-  maxWidth:'1440px',
-  margin:'auto',
+  maxWidth: "1440px",
+  margin: "auto",
   backgroundCcolor: "white",
   display: "flex",
   columnGap: "1rem",
